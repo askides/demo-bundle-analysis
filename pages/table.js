@@ -1,12 +1,12 @@
 import { Box } from "@mui/material";
-import { MovieAutocomplete, Navbar } from "../components";
+import { Navbar, RandomTable } from "../components";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
       <Box padding="32px">
-        <MovieAutocomplete />
+        <RandomTable />
       </Box>
     </div>
   );
