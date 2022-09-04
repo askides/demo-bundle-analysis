@@ -1,6 +1,6 @@
 import CssBaseline from "@mui/material/CssBaseline";
+import { appWithTranslation } from "next-i18next";
 import * as React from "react";
-import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,4 +11,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);
